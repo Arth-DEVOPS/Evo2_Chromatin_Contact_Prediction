@@ -1,0 +1,4 @@
+Average PCC: -0.0092
+Std PCC: 0.0452
+Representative Example Index: 61
+Representative PCC: -0.0089
