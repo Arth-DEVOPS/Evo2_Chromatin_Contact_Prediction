@@ -104,7 +104,6 @@ distribution constraints. Experiment tracking was performed with Weights & Biase
 
 - The result supports the hypothesis that useful folding information exists in Evo2 embeddings
   but is not linearly decodable in this configuration.
-- The comparison used the course-provided subset rather than every available training shard.
 - Evo2 was frozen; selectively unfreezing upper blocks may improve task adaptation.
 - The MLP treats output pixels independently. A 2D convolutional, triangular, or cross-attention
   head could better encode contact-map structure and symmetry.
@@ -112,6 +111,5 @@ distribution constraints. Experiment tracking was performed with Weights & Biase
 
 ## Acknowledgments
 
-Developed as part of CMU 02-741, *Generative AI for Biomedicine*. The starter pipeline was
-adapted from [DNALONGBENCH](https://github.com/ma-compbio/DNALONGBENCH); Evo2, its model
+The starter pipeline was adapted from [DNALONGBENCH](https://github.com/ma-compbio/DNALONGBENCH); Evo2, its model
 weights, and the benchmark data remain subject to their upstream licenses and usage terms.
